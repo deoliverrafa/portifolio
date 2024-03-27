@@ -109,8 +109,8 @@ body{
 
 .profile-image{
     border-radius: inherit;
-    width: 90%;
-    height: 90%;
+    width: 400px;
+    height: 400px;
 
     border-color: white;
     border-style: solid;
@@ -161,6 +161,17 @@ body{
         flex-direction: column;
         gap: 3em;
         width: 50vw;
+    }
+
+    .profile-image{
+        border-radius: inherit;
+        width: 90%;
+        height: 90%;
+    
+        border-color: white;
+        border-style: solid;
+        border-width: .15em;
+    
     }
 
     .icons-div{
