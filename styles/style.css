@@ -82,7 +82,7 @@ body{
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
+    width: 100%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5em;
@@ -109,8 +109,8 @@ body{
 
 .profile-image{
     border-radius: inherit;
-    width: 20em;
-    height: 20em;
+    width: 90%;
+    height: 90%;
 
     border-color: white;
     border-style: solid;
