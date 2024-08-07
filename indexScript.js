@@ -3,8 +3,20 @@ const desc = document.querySelector('.apresentacao__conteudo__texto')
 const img = document.querySelector('.profile-image')
 
 
-título.innerHTML = localStorage.getItem('newTitle')
-desc.innerHTML = localStorage.getItem('newDesc')
-img.src = localStorage.getItem('newImage')
+if (localStorage.getItem('newTitle') != null) {
+    título.innerHTML = localStorage.getItem('newTitle')
+} else{
+    
+}
 
+if (localStorage.getItem('newTitle') != null) {
+    desc.innerHTML = localStorage.getItem('newDesc')
+} else{
+    
+}
 
+if (localStorage.getItem('newImage') != null) {
+    img.src = localStorage.getItem('newImage')
+} else{
+    
+}
